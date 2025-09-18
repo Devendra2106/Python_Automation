@@ -1,9 +1,9 @@
-# ProcMon - Process Monitor
+# Process Mon - Process Monitor
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/)
 [![psutil](https://img.shields.io/badge/dependency-psutil-green.svg)](https://pypi.org/project/psutil/)
 
-**ProcMon** (*Process Monitor*) is a lightweight Python tool to monitor running processes and generate detailed log files with timestamped filenames. It helps in auditing, debugging, and analyzing system activity.
+**Process Mon** (*Process Monitor*) is a lightweight Python tool to monitor running processes and generate detailed log files with timestamped filenames. It helps in auditing, debugging, and analyzing system activity.
 
 ---
 
@@ -16,7 +16,7 @@
   * Username
   * Virtual Memory Size (in MB)
 * 🗂️ Generate timestamped log files automatically.
-* 📁 Store logs in a dedicated `ProcMonLogs` directory.
+* 📁 Store logs in a dedicated `Process MonLogs` directory.
 * ⚡ Works on Windows, Linux, and macOS.
 
 ---
@@ -39,15 +39,15 @@ pip install psutil
 Run the script:
 
 ```bash
-python procmon.py
+python Process Mon.py
 ```
 
-A new log file will be created in the `ProcMonLogs` folder.
+A new log file will be created in the `Process MonLogs` folder.
 
 Example log file name:
 
 ```
-ProcMon_ThuSep18_2025_17_45_23.log
+Process Mon_ThuSep18_2025_17_45_23.log
 ```
 
 ---
@@ -56,7 +56,7 @@ ProcMon_ThuSep18_2025_17_45_23.log
 
 ```
 --------------------------------------------------------------------------------
-        ProcMon - Process Log
+        Process Mon - Process Log
         Log File created at: Thu Sep 18 17:45:23 2025
 --------------------------------------------------------------------------------
 
@@ -72,9 +72,9 @@ ProcMon_ThuSep18_2025_17_45_23.log
 
 ```
 .
-├── procmon.py          # Main script
+├── Process Mon.py          # Main script
 ├── README.md           # Documentation
-└── ProcMonLogs/        # Auto-generated log files
+└── Process MonLogs/        # Auto-generated log files
 ```
 
 ---
@@ -84,14 +84,14 @@ ProcMon_ThuSep18_2025_17_45_23.log
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/procmon.git
-cd procmon
+git clone https://github.com/your-username/Process Mon.git
+cd Process Mon
 ```
 
 Run locally:
 
 ```bash
-python procmon.py
+python Process Mon.py
 ```
 
 ---
@@ -100,8 +100,8 @@ python procmon.py
 
 Contributions are welcome!
 
-* Open an [issue](https://github.com/your-username/procmon/issues)
-* Submit a [pull request](https://github.com/your-username/procmon/pulls)
+* Open an [issue](https://github.com/your-username/Process Mon/issues)
+* Submit a [pull request](https://github.com/your-username/Process Mon/pulls)
 
 ---
 
@@ -110,5 +110,6 @@ Contributions are welcome!
 
 ## 👨‍💻 Author
 
-Developed by **Om Ravindra Wakhare**
-📧 Contact: omwakhare16@gmail(mailto:your.omwakhare16@gmail.com)
+Developed by **Devendra Santosh Deshmukh**
+📧 Contact: devendradeshmukh00@gmail
+(mailto:your.devendradeshmukh00@gmail.com)
